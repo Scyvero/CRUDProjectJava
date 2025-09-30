@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.crudproject.controllers.MainWindowController">
+   <children>
+      <Button layoutX="278.0" layoutY="302.0" mnemonicParsing="false" onAction="#login_button_click" text="login" />
+      <TextField fx:id="tf_name" layoutX="225.0" layoutY="130.0" />
+      <PasswordField fx:id="tf_pass" layoutX="225.0" layoutY="200.0" />
+      <Label layoutX="267.0" layoutY="49.0" text="login screen" />
+      <Label layoutX="274.0" layoutY="105.0" text="username" />
+      <Label layoutX="274.0" layoutY="182.0" text="password" />
+   </children>
+</AnchorPane>
