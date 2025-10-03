@@ -21,8 +21,6 @@ public class pwhasher {
         tx.commit();
         session.close();
 
-        databasehandler.shutdown();
-
     }
 
     public boolean checkPassword(String name, String RawPassword) {
