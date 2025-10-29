@@ -37,7 +37,7 @@ public class MainWindowController {
         if (verified) {
             System.out.println("Password verified");
             try{
-                root = FXMLLoader.load(getClass().getResource("/com/crudproject/fxml/OverviewWindow.fxml"));
+                root = FXMLLoader.load(getClass().getResource("/com/crudproject/fxml/UsersWindow.fxml"));
                 stage = (Stage)((Node)event.getSource()).getScene().getWindow();
                 scene = new Scene(root);
                 stage.setScene(scene);
